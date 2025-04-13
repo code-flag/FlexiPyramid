@@ -1,0 +1,48 @@
+.flexi-pyramid-wrapper {
+    width: 100%;
+    margin: 2rem auto;
+  }
+  
+  .flexi-pyramid-container {
+    width: 100%;
+    position: relative;
+    background: blue;
+    overflow: hidden;
+  }
+  
+  .flexi-pyramid-cut {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 150%;
+    background: white;
+    z-index: 2;
+  }
+  
+  .flexi-pyramid-cut.left {
+    left: 0;
+    transform-origin: top right;
+  }
+  
+  .flexi-pyramid-cut.right {
+    right: 0;
+    transform-origin: top left;
+  }
+  
+  .flexi-pyramid-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flexi-segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+  }
+  

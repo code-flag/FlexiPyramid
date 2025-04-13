@@ -1,0 +1,30 @@
+{
+  "name": "flexipyramid",
+  "version": "1.0.0",
+  "description": "A responsive, customizable segmented pyramid chart component for React apps",
+  "main": "index.js",
+  "module": "index.js",
+  "keywords": [
+    "react",
+    "pyramid-chart",
+    "segmented-pyramid",
+    "responsive-chart",
+    "flexipyramid",
+    "bootstrap"
+  ],
+  "author": "Francis Olawumi Awe",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "dependencies": {},
+  "files": [
+    "index.js",
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-flag/flexipyramid"
+  }
+}
